@@ -1,11 +1,11 @@
-/*
+
 *{
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
 }
-*/
+
 
 #container{
   width: 84%;
@@ -17,7 +17,7 @@
 header {
    position:relative;
    height: 8rem;
-   background: #66fac9 ;#511d1c 
+   background: #66fac9 ;
    box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
  }
 
@@ -40,6 +40,7 @@ nav {
   }
 
   nav ul li{
+	list-style: none;
     margin-right: 2rem;
   }
 
@@ -49,7 +50,7 @@ nav {
 
 main{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
   section{
@@ -63,6 +64,7 @@ main{
       padding: 1rem;
       margin-bottom: 2rem;
       background: #FFF;
+	  color: #00008b;
     }
 
   aside{
